@@ -1,6 +1,8 @@
 package main
 
-import "github.com/igromancer/tiny-ledger/internal/server"
+import (
+	"github.com/igromancer/tiny-ledger/internal/server"
+)
 
 func main() {
 	srv := server.Create()
